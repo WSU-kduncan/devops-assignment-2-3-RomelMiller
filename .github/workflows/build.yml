@@ -1,6 +1,6 @@
 name: Docker CI with Gradle
 
-# Defines the workflow trigger
+# Defines the workflow trigger u
 on:
   # We trigger the workflow on a push
   push:
