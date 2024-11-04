@@ -1,6 +1,6 @@
 name: Docker CI with Gradle
 
-# Defines the workflow trigger u
+# Defines the workflow trigger
 on:
   # We trigger the workflow on a push
   push:
@@ -76,4 +76,4 @@ jobs:
           push: true
           # Pushing this to the wsu-gh-actions-demo repo in the sakahle project on DockerHub
           # uniquely tagged with the current commit hash.
-          tags: RomelMiller/devops-assignment-2-3-RomelMiller:${{ github.sha }}
+          tags: wsukduncan/workpro-service:${{ github.sha }}
